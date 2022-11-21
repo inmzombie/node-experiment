@@ -4,7 +4,7 @@ import { get, URLS } from './config/url';
 const { TRANSLATE } = URLS;
 
 const encodedParams = new URLSearchParams();
-encodedParams.append('q', 'Hola, mundo!');
+encodedParams.append('q', 'Hello, world!');
 encodedParams.append('target', 'es');
 encodedParams.append('source', 'en');
 
